@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Index</title>
+    <style>
+        body{
+            background-color: #121212;
+            color: #ffffff; 
+            font-family: 'Arial', sans-serif; 
+            text-align: center; 
+            margin: 0; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; 
+        }
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px; /* Add some space below the heading */
+}
+
+p {
+    max-width: 800px; 
+    margin-bottom: 20px;
+    line-height: 2rem; 
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none; /* Remove default underline on anchor tags */
+}
+
+button {
+    background: linear-gradient(to right, #e4e73c, #ff9100); /* Gradient button background */
+    color:black; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background 0.3s ease; 
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background:transparent; 
+    border: 1px solid #ff9100;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Student's Mark Prediction App</h1>
+    <p>We predict your maths score based on the different range of parameters associated with you. <br>Click on the below button to know more!</p>
+    <a href="http://localhost:8080/predictdata">
+        <button>Predict Math Score</button>
+    </a>
+</body>
+</html>

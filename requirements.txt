@@ -5,4 +5,5 @@ matplotlib
 scikit-learn
 xgboost
 pickle4
+Flask
 # -e .
